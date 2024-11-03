@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.showcrewnetwork.login</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/$USER/login_mac/venv/bin/python3</string>
+        <string>/Users/$USER/login_mac/login.py</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>3600</integer> <! hourly>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+
